@@ -5,7 +5,7 @@ import { getInstructorCourseDetails } from "../../../Services/operations/courseD
 import ActionBtn from "../../common/ActionBtn"
 import { FaPlus } from "react-icons/fa6";
 
-import CoursesTable from "./InstructorCourses/coursesTable";
+import CoursesTable from "../Dashboard/InstructorCourses/CoursesTable"
 
 const MyCourses = () => {
 
