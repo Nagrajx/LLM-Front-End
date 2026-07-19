@@ -5,7 +5,7 @@ import HighlightText from '../components/core/HomePage/HighLightText';
 import CTAButton from '../components/core/HomePage/CTAButton';
 import BannerVideo from '../assets/Images/banner.mp4'
 import CodeBlock from '../components/core/HomePage/CodeBlock'
-import TimelineSection from '../components/core/HomePage/TimeLineSection';
+import TimelineSection from "../components/core/HomePage/TimelineSection"
 import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection';
 import InstructorSection from '../components/core/HomePage/InstructorSection';
 import ExploreMore from '../components/core/HomePage/ExploreMore';
