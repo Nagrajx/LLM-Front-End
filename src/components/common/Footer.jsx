@@ -39,17 +39,18 @@ const Footer = () => {
         <div className="bg-[#161D29]">
             <div className="w-11/12 max-w-[1260px] mx-auto flex flex-col text-[#6E727F] relative py-14">
 
-                {/* Upper Footer */}
+                {/* ==================== UPPER FOOTER ==================== */}
                 <div className="w-full border-b flex flex-col lg:flex-row flex-wrap pb-5 border-[#2C333F]">
 
-                    {/* Section 1 */}
+                    {/* ==================== SECTION 1 ==================== */}
                     <div className="lg:w-[50%] flex flex-wrap lg:gap-0 gap-5 justify-between lg:border-r border-[#2C333F]">
 
-                        {/* Company */}
+                        {/* ==================== ABOUT ==================== */}
                         <div className="lg:w-[30%] flex flex-col gap-3">
+
                             <img
                                 src={Logo}
-                                alt=""
+                                alt="CodeMitra Technology"
                                 className="object-contain"
                             />
 
@@ -74,6 +75,7 @@ const Footer = () => {
                                 )}
                             </div>
 
+                            {/* Social Icons */}
                             <div className="flex gap-3 text-lg">
                                 <FaFacebook />
                                 <FaGoogle />
@@ -82,8 +84,9 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        {/* Resources */}
+                        {/* ==================== RESOURCES ==================== */}
                         <div className="lg:w-[30%] w-[48%]">
+
                             <div>
                                 <p className="text-[#C5C7D4] font-semibold text-[16px]">
                                     Resources
@@ -119,8 +122,9 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        {/* Plans & Community */}
+                        {/* ==================== PLANS & COMMUNITY ==================== */}
                         <div className="lg:w-[30%] w-[48%]">
+
                             {/* Plans */}
                             <div>
                                 <p className="text-[#C5C7D4] font-semibold text-[16px]">
@@ -172,8 +176,9 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Section 2 */}
+                    {/* ==================== SECTION 2 ==================== */}
                     <div className="lg:w-[50%] flex flex-wrap gap-5 lg:gap-0 justify-between lg:mt-0 mt-5 lg:pl-5">
+
                         {FooterLink2.map((heading, index) => {
                             return (
                                 <div
@@ -204,8 +209,10 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Bottom Footer */}
+                {/* ==================== BOTTOM FOOTER ==================== */}
                 <div className="flex justify-between text-[#6E727F] mt-14 lg:flex-row flex-col items-center gap-y-3">
+
+                    {/* Bottom Links */}
                     <div className="flex gap-3 lg:items-start items-center flex-row">
                         {BottomFooter.map((element, index) => {
                             return (
@@ -230,6 +237,7 @@ const Footer = () => {
                         })}
                     </div>
 
+                    {/* Copyright */}
                     <div className="text-[14px]">
                         Made with ❤️ By Satish Nagraj © 2026 StudyNotion
                     </div>
