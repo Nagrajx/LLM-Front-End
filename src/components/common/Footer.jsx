@@ -204,7 +204,7 @@ const Footer = () => {
                     </div>
 
                     <div className='text-[14px]'>
-                        Made with ❤️ By Satish Nagraj © 2026 StudySphere
+                        Made with ❤️ By Satish Nagraj © 2026 StudyNotion
                     </div>
                 </div>
 
