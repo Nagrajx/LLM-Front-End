@@ -35,7 +35,7 @@ const Footer = () => {
                             />
 
                             <h2 className='text-[#DBDDEA] font-semibold text-[16px]'>
-                                Codemitra Technology
+                                Codemitra Technology....
                             </h2>
 
                             <div className='flex flex-col gap-2'>
